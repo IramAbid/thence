@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../assets/Manrope/Manrope-VariableFont_wght.ttf);
+}
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 97%;
+    height: 111.17px;
+    margin: 24px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #EAEAEA;
+    backdrop-filter: blur(15.6667px);
+    border-radius: 65.2778px;
+  }
+
+.logo{
+width: 127.94px;
+height: 47.39px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+margin-left: 20px;
+}
+
+.buttoncontainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15.67px;
+width: 428.61px;
+height: 77.22px;
+}
+
+.button1 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 26.1111px 41.7778px;
+gap: 5.22px;
+width: 189.56px;
+height: 77.22px;
+background: rgba(255, 255, 255, 0.8);
+border: 1.30556px solid #EAEAEA;
+border-radius: 107.056px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26.1111px 49.6111px 26.1111px 41.7778px;
+    gap: 15.67px;
+    color: white;
+    width: auto; 
+    max-width: 100%; 
+    height: 77.22px;
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+    border-radius: 107.056px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 18px;
+  }
+  
+
+  .buttontext{
+    height: 25px;
+    font-family: 'Manrope';
+    font-style: normal; /* Adding font-style property */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
