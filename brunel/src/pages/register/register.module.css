@@ -1,0 +1,151 @@
+
+.register{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin: 0;
+    padding:0;
+}
+
+.header{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 30px 0 10px 0;
+}
+
+.logo{
+    width: 127.94px;
+    height: 47.39px;
+    margin-left: 80px;
+}
+
+.cross{
+width:64px;
+height: 64px;
+margin-right: 80px;
+}
+
+label{
+    padding:0;
+    margin:0;
+}
+  
+input {
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 36px;
+width: 417px;
+height: 75px;
+background: #EFEFEF;
+border: 0.5px solid rgba(197, 189, 216, 0.02);
+margin-top: 0;
+border-radius: 64px;
+margin-bottom: 20px;
+}
+
+input:active{
+    border: 0.5px solid blue;
+}
+
+.submit {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 26.1111px 49.6111px 26.1111px 41.7778px;
+width: 417px;
+height: 77.22px;
+background: linear-gradient(0deg, #C9C9C9, #C9C9C9), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+border-radius: 107.056px;
+margin: 40px 0 55px 0;
+border:none;
+font-family: 'Manrope';
+font-size: 18px;
+font-weight: 600;
+line-height: 24.59px;
+text-align: center;
+
+}
+  
+
+  .form{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 50px 0;
+  }
+
+  .registertext{
+   width:100%;
+   display: flex;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+  }
+
+  .registerhere{
+    font-family: 'CoveredByYourGrace';
+    width:100%;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #2DA950;
+    padding: 0;
+    margin: 0;
+    margin-top:15px;
+  }
+
+  .journey{
+    width:690px;
+    font-family: 'Manrope';
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:#1C1C1C;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+.error{
+color:red;
+width: 300px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+margin-top: -10px;
+display: flex;
+}
+
+.submit:hover{
+color:white;
+background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+}
+
+:placeholder-shown{
+font-family: Manrope;
+font-size: 20px;
+font-weight: 500;
+line-height: 27.32px;
+text-align: left;
+}
+
+
+

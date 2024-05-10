@@ -2,16 +2,24 @@
     font-family: 'Manrope';
     src: url(../../assets/Manrope/Manrope-VariableFont_wght.ttf);
 }
+
+.navbarcontainer{
+  width: 100vw;
+  height: 160px;
+  background-color: #454444;
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+}
 .navbar {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    width: 97%;
+    width: 94vw;
     height: 111.17px;
-    margin: 24px;
+    margin: 24px 80px;
     padding: 30px;
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid #EAEAEA;
@@ -27,6 +35,10 @@ order: 0;
 flex-grow: 0;
 z-index: 0;
 margin-left: 20px;
+}
+
+.logo:hover{
+  cursor: pointer;
 }
 
 .buttoncontainer{
@@ -77,7 +89,32 @@ flex-grow: 0;
     font-size: 18px;
   }
   
+.herotext{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+position: absolute;
+width: 588px;
+height: 178px;
+left: calc(50% - 588px/2);
+top: 79px;
+background-color:#1C1C1C;
+z-index: 6;
+}
 
+.button2:hover{
+background: linear-gradient(0deg, #4E4E4E, #4E4E4E), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+cursor: pointer;
+}
+
+.button1:hover{
+background: #F1F1F1;
+border: 1.30556px solid #EAEAEA;
+  cursor: pointer; 
+  }
   .buttontext{
     height: 25px;
     font-family: 'Manrope';
@@ -90,4 +127,10 @@ flex-grow: 0;
     flex: none;
     order: 0;
     flex-grow: 0;
+  } 
+
+  Link{
+  color:#1C1C1C;
+  text-decoration: none;
+
   }
