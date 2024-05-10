@@ -41,3 +41,4 @@ To run this project on your device, ensure you have Node.js and npm installed. F
 
 ## Support
 If you encounter any issues or have questions regarding the project, feel free to reach out to us through the [project website](https://contact-management-app-taiyoai-iram-abids-projects.vercel.app/contact-page).
+
