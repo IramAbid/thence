@@ -3,38 +3,35 @@
     src: url(../../assets/Manrope/Manrope-VariableFont_wght.ttf);
 }
 
-.navbarcontainer{
+.navcontainer{
   width: 100vw;
-  height: 160px;
-  background-color: #454444;
+  height: 188px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding-left: 24px;
+  margin: 0;
+  padding:0;
 }
+
 .navbar {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 94vw;
-    height: 111.17px;
-    margin: 24px 80px;
-    padding: 30px;
+    margin: 0;
+    padding: 2%;
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid #EAEAEA;
-    backdrop-filter: blur(15.6667px);
     border-radius: 65.2778px;
+    width: 95%;
+
   }
 
 .logo{
-width: 127.94px;
-height: 47.39px;
-flex: none;
-order: 0;
-flex-grow: 0;
-z-index: 0;
-margin-left: 20px;
+ width: 127.94px;
+ height: 47.39px;
+ margin-left: 25px;
 }
 
 .logo:hover{
@@ -46,6 +43,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 padding: 0px;
+margin: 0;
 gap: 15.67px;
 width: 428.61px;
 height: 77.22px;
@@ -58,15 +56,11 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 26.1111px 41.7778px;
-gap: 5.22px;
 width: 189.56px;
 height: 77.22px;
 background: rgba(255, 255, 255, 0.8);
 border: 1.30556px solid #EAEAEA;
 border-radius: 107.056px;
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .button2 {
@@ -89,21 +83,7 @@ flex-grow: 0;
     font-size: 18px;
   }
   
-.herotext{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 16px;
-position: absolute;
-width: 588px;
-height: 178px;
-left: calc(50% - 588px/2);
-top: 79px;
-background-color:#1C1C1C;
-z-index: 6;
-}
+
 
 .button2:hover{
 background: linear-gradient(0deg, #4E4E4E, #4E4E4E), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
@@ -113,9 +93,11 @@ cursor: pointer;
 .button1:hover{
 background: #F1F1F1;
 border: 1.30556px solid #EAEAEA;
-  cursor: pointer; 
-  }
-  .buttontext{
+cursor: pointer; 
+
+}
+
+.buttontext{
     height: 25px;
     font-family: 'Manrope';
     font-style: normal; /* Adding font-style property */
@@ -132,5 +114,4 @@ border: 1.30556px solid #EAEAEA;
   Link{
   color:#1C1C1C;
   text-decoration: none;
-
   }
