@@ -1,0 +1,304 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../assets/Manrope/Manrope-VariableFont_wght.ttf);  
+}
+@font-face {
+    font-family: 'Switzer';
+    src: url(../../assets/Switzer_Complete/Switzer_Complete/Fonts/TTF/Switzer-Variable.ttf);
+}
+@font-face {
+    font-family: 'CoveredByYourGrace';
+    src: url(../../assets/Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf);
+}
+
+.hero{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+position: relative;
+width: 100%;
+height: 1040px;
+margin: 0;
+
+}
+
+.herocontainer {
+    position: relative;
+    width: 80%;
+    height: 886px;
+    top: 50px;
+    justify-content: center;
+  }
+
+.stories{
+height: 45px;
+width: 588px;
+font-family: 'CoveredByYourGrace';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+align-items: center;
+letter-spacing: -0.02em;
+color: #2DA950;
+white-space: nowrap;
+text-align: center;
+margin-top: 0;
+align-self: center;
+margin-bottom: 0;
+}
+
+.herocentertext{
+margin-top: 0;
+margin-bottom: 0;
+width: 588px;
+height: 134px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 100%;
+display: flex;
+text-align: center;
+letter-spacing: -0.02em;
+color: #1C1C1C;
+align-self: center;
+}
+
+.herotext{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 178px;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+  }
+
+  .secondsection{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 708px;
+  
+  }
+
+  .heroimage{
+    width: 50%;
+    height: 546.27px;
+    display: flex;
+    justify-content: right;
+    padding-top: 92px;
+    }
+    
+    .girl{ 
+        width: 506.98px;
+        height: 546.27px; 
+    }
+
+.secondtextcontainer{
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 710px;
+    line-height: 120%;
+    text-align: left;
+}
+.secondsectiontext{
+
+    justify-content: center;
+    width: 398px;
+    height: 192px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02rem;
+    color: #1C1C1C; 
+  }
+
+  .cardtext{
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Manrope';
+    font-size: 18px;
+    color: #828282;
+    width:207.82px;
+    height:92px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .days{
+    margin-top: 0;
+    margin-bottom: 0;
+    color:black;
+    padding-left: 5px;
+    width: 92px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Manrope';
+    line-height: 32.78px;
+    justify-self: left;
+    z-index:6;
+    margin-left: 60px;
+    margin-top: -55px;
+    }
+
+  .forty{
+    font-size: 64px;
+    letter-spacing: -0.03rem;
+    line-height: 64px;
+    font-family: 'Switzer';
+    color:#1C1C1C;
+    width: 121px;
+    height: 77px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .fortystyle{
+    
+position:absolute;
+width: 90px;
+height: 90px;
+left: -8px;
+top: -15px;
+transform: rotate(-8.27deg);
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+padding: 0;
+margin: 0;
+  }
+
+.million{
+    align-self: flex-end;
+    width:90px;
+    height: 32px;
+    font-family: 'Switzer';
+    font-size: 22.81px;
+    font-weight: 500;
+    line-height: 31.94px;
+    letter-spacing: 0.01rem;
+    padding: 0;
+    margin: 0;
+    color: #828282;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    
+}
+
+.dollar{
+    font-family: 'Switzer';
+    font-size: 63.37px;
+    line-height: 76.05px;
+    letter-spacing: -0.03rem;
+    font-weight: 500;
+    width: 119px;
+    color:white;
+    padding: 0;
+    padding-top: 0px;
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+    margin-left: 12px;
+    padding-top: 14px;
+}
+
+.cardmillion{
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Manrope';
+    font-size: 18px;
+    color: #ccc;
+    width:220.82px;
+    height:92px;
+    text-align: left;
+    margin-left: 12px;
+    
+}
+
+.aeroplane{
+width: 52px;
+height: 52px;
+background: #DDEFE0;
+border-radius: 50%;
+margin-top: -8px;
+padding-left: -8px;
+padding-top: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.planepic{
+width: 32px;
+height: 32px;
+}
+
+.planetext{
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Manrope';
+    font-size: 16px; 
+    color: #828282;
+    width:220.82px;
+    height:92px;
+    text-align: left;
+    margin-left: 68px;  
+}
+
+.dots{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+position: relative;
+width: 56.25px;
+height: 10.75px;
+margin-top: 50px;
+margin-left: 5px;
+
+}
+
+.button{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 31px 40px;
+gap: 16px;
+position: absolute;
+width: 245px;
+height: 88px;
+background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+border-radius: 100px;
+color:white;
+margin-top:40cqmax;
+margin-right:10cqmax;
+font-size: 20px;
+font-family: 'Manrope';
+
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.button:hover{
+  background: linear-gradient(0deg, #4E4E4E, #4E4E4E), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+  cursor: pointer;
+  }
