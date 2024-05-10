@@ -16,21 +16,36 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0px;
 position: relative;
-width: 100%;
+width: 100vw;
 height: 1040px;
+padding: 0px;
 margin: 0;
 
 }
 
 .herocontainer {
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 886px;
     top: 50px;
     justify-content: center;
-  }
+    padding: 0;
+    margin:0;
+}
+
+.herotext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 178px;
+  width: 100%;
+  align-items: center;
+  align-self: center;
+  padding: 0px;
+  margin: 0;
+}
 
 .stories{
 height: 45px;
@@ -44,15 +59,14 @@ letter-spacing: -0.02em;
 color: #2DA950;
 white-space: nowrap;
 text-align: center;
-margin-top: 0;
+margin: 0;
 align-self: center;
-margin-bottom: 0;
 }
 
 .herocentertext{
-margin-top: 0;
-margin-bottom: 0;
-width: 588px;
+margin: 0;
+padding:0;
+width: 600px;
 height: 134px;
 font-family: 'Manrope';
 font-style: normal;
@@ -61,22 +75,12 @@ font-size: 56px;
 line-height: 100%;
 display: flex;
 text-align: center;
-letter-spacing: -0.02em;
+letter-spacing: 0.02rem;
 color: #1C1C1C;
 align-self: center;
 }
 
-.herotext{
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 178px;
-    width: 100%;
-    align-items: center;
-    align-self: center;
-  }
+
 
   .secondsection{
    display: flex;
@@ -100,6 +104,8 @@ align-self: center;
     }
 
 .secondtextcontainer{
+    padding: 0;
+    margin: 0;
     width: 50%; 
     display: flex;
     align-items: center;
@@ -109,7 +115,6 @@ align-self: center;
     text-align: left;
 }
 .secondsectiontext{
-
     justify-content: center;
     width: 398px;
     height: 192px;
@@ -119,6 +124,9 @@ align-self: center;
     line-height: 48px;
     letter-spacing: -0.02rem;
     color: #1C1C1C; 
+    padding: 0;
+    margin: 0;
+    position: absolute;
   }
 
   .cardtext{
@@ -131,6 +139,8 @@ align-self: center;
     height:92px;
     text-align: left;
     margin-left: 10px;
+    padding: 0;
+
   }
 
   .days{
@@ -145,7 +155,6 @@ align-self: center;
     font-family: 'Manrope';
     line-height: 32.78px;
     justify-self: left;
-    z-index:6;
     margin-left: 60px;
     margin-top: -55px;
     }
@@ -164,8 +173,7 @@ align-self: center;
     margin-left: 10px;
   }
 
-  .fortystyle{
-    
+.fortystyle{  
 position:absolute;
 width: 90px;
 height: 90px;
@@ -178,7 +186,7 @@ flex-grow: 0;
 z-index: 2;
 padding: 0;
 margin: 0;
-  }
+}
 
 .million{
     align-self: flex-end;
@@ -273,23 +281,22 @@ margin-left: 5px;
 }
 
 .button{
-
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 31px 40px;
 gap: 16px;
-position: absolute;
 width: 245px;
 height: 88px;
-background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #111010 105.2%);
 border-radius: 100px;
 color:white;
 margin-top:40cqmax;
 margin-right:10cqmax;
 font-size: 20px;
 font-family: 'Manrope';
+border:none;
 
 }
 
@@ -301,4 +308,4 @@ font-family: 'Manrope';
 .button:hover{
   background: linear-gradient(0deg, #4E4E4E, #4E4E4E), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
   cursor: pointer;
-  }
+}

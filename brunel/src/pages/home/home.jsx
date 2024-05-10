@@ -9,7 +9,6 @@ function Home (){
         <div className={styles.Home}>  
           <Navbar/>     
             <div className={styles.homecontainer}>
-        
             <Hero className={styles.hero} />
             <Bottom className={styles.bottom} />
             </div>
